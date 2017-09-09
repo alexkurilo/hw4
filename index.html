@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home work 4</title>
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+	<header>
+		header
+		<br>
+		<span>Посмотреть график &nbsp;
+			<a href="index1.html"> 	
+				"Домики"
+			</a>
+		</span>
+	</header>
+	<main>
+		<aside class="left-side">
+			left-side
+		</aside>
+		<div class="content">
+			<article>
+				<p class="awesome">
+					<i class="fa fa-camera-retro"></i>
+				</p>
+				<h2>
+					Поддержка браузерами
+				</h2>
+				<p class="text">
+					Поддержка браузерами пока неполная (2014). Виноват в этом в основном Internet explorer, который поддерживает спецификацию 2011 года только начиная с 10 версии, . Не смотря на это, я бы порекомендовал обратить внимание на обширность поддержки всеми остальными мобильными и десктопными браузерами! Тут все прекрасно. Если Вам нужна мобильная версия сайта или web-based приложение, то его уже можно (а, возможно, и нужно) делать, используя все преимущества flexbox!
+				</p>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-camera"></i>
+				</p>
+				
+				<h2>
+					Немного истории
+				</h2>
+				<p class="text" >
+					2008 – CSS Working Group обсуждает предложение “Flexible Box Model” на основе XUL (XML User Interface Language – язык разметки в приложениях Mozilla) and XAML (Extensible Application Markup Language – язык разметки в приложениях Microsoft).
+				</p>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-home"></i>
+				</p>
+				<h2>
+					Немного истории
+				</h2>
+				<p class="text">
+					2009 – опубликован черновик “Flexible Box Layout Module”. Chrome и Safari добавляет частичную поддержку, пока Mozilla начинает поддерживать XUL-подобный синтаксис, известный как “Flexbox 2009″.
+				</p>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-lock"></i>
+				</p>
+				<h2>
+					Немного истории
+				</h2>
+				<p class="text">
+					2011 – Tab Atkins берется за развитие Flexbox и публикует 2 черновика. В этих черновиках синтаксис изменен значительно. Chrome, Opera и IE 10 внедряют поддержку этого синтаксиса. Он известен под названием “flexbox 2011”
+				</p>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-unlock"></i>
+				</p>
+				<h2>
+					Немного истории
+				</h2>
+				<p class="text">
+					2012 – Синтаксис снова немного изменен и уточнен. Спецификация переходит в статус Candidate Recommendation и известна под названием “flexbox 2012”. Opera внедряет беспрефиксную поддержку, Chrome поддерживает текущую спецификацию с префиксами, а Mozilla без них, IE10 добавляет поддержку устаревающего “flexbox 2011” синтаксиса.
+				</p>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-laptop"></i>
+				</p>
+				<h2>
+					Немного истории
+				</h2>
+				<p class="text">
+					2014 – все новые браузеры поддерживают последнюю спецификацию (включая IE 11)
+				</p>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-road"></i>
+				</p>
+				<h2>
+					flex-direction – направление главной оси
+				</h2>
+				<h3>
+					Доступные значения flex-direction:
+				</h3>
+				<div class="text">
+					<ul>
+						<li>
+							row (значение по умолчанию) : слева направо (в rtl справа налево)
+						</li>
+						<li>
+							row-reverse: справа налево (в rtl слева направо)
+						</li>
+						<li>
+							column: сверху вниз
+						</li>
+						<li>
+							column-reverse: снизу вверх
+						</li>
+					</ul>
+				</div>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-medkit"></i>
+				</p>
+				<h2>
+					justify-content – выравнивание по главной оси.
+				</h2>
+				<h3>
+					Доступные значения justify-content:
+				</h3>
+				<div class="text">
+					<ul>
+						<li>
+							flex-start (значение по умолчанию) : блоки прижаты к началу главной оси
+						</li>
+						<li>
+							flex-end: блоки прижаты к концу главной оси
+						</li>
+						<li>
+							center: блоки располагаются в центре главной оси
+						</li>
+						<li>
+							space-between: первый блок располагается в начале главной оси, последний блок – в конце, все остальные блоки равномерно распределены в оставшемся пространстве.
+						</li>
+						<li>
+							space-around: все блоки равномерно распределены вдоль главной оси, разделяя все свободное пространство поровну.
+						</li>
+					</ul>
+				</div>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-plane"></i>
+				</p>
+				<h2>
+					align-items – выравнивание по поперечной оси.
+				</h2>
+				<h3>
+					Доступные значения align-items:
+				</h3>
+				<div class="text">
+					<ul>
+						<li>
+							flex-start: блоки прижаты к началу поперечной оси
+
+						</li>
+						<li>
+							flex-end: блоки прижаты к концу поперечной оси
+
+						</li>
+						<li>
+							center: блоки располагаются в центре поперечной оси
+						</li>
+						<li>
+							baseline: блоки выровнены по их baseline
+						</li>
+						<li>
+							stretch (значение по умолчанию) : блоки растянуты, занимая все доступное место по поперечной оси, при этом все же учитываются min-width/max-width, если таковые заданы.
+						</li>
+					</ul>
+				</div>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-envelope"></i>
+				</p>
+				<h2>
+					flex-wrap
+				</h2>
+				<h3>
+					Доступные значения flex-wrap:
+				</h3>
+				<div class="text">
+					<ul>
+						<li>
+							nowrap (значение по умолчанию) : блоки расположены в одну линию слева направо (в rtl справа налево)
+						</li>
+						<li>
+							wrap: блоки расположены в несколько горизонтальных рядов (если не помещаются в один ряд). Они следуют друг за другом слева направо (в rtl справа налево)
+						</li>
+						<li>
+							wrap-reverse: то-же что и wrap, но блоки располагаются в обратном порядке.
+						</li>
+					</ul>
+				</div>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-film"></i>
+				</p>
+				<h2>
+					flex-flow 
+				</h2>
+				<p class="text">
+					– удобное сокращение для flex-direction + flex-wrap
+				</p>
+				<p class="text">flex-flow: &lt;&lsquo;flex-direction&rsquo;&gt; || &lt;&lsquo;flex-wrap&rsquo;&gt;
+				</p>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-key"></i>
+				</p>
+				<h2>
+					align-content
+				</h2>
+				<h3>
+					Доступные значения align-content:
+				</h3>
+				<div class="text">
+					<ul>
+						<li>
+							flex-start: ряды блоков прижаты к началу flex-контейнера.
+
+						</li>
+						<li>
+							flex-end: ряды блоков прижаты к концу flex-контейнера
+
+						</li>
+						<li>
+							center: ряды блоков находятся в центре flex-контейнера
+
+						</li>
+						<li>
+							space-between: первый ряд блоков располагается в начале flex-контейнера, последний ряд блоков блок – в конце, все остальные ряды равномерно распределены в оставшемся пространстве.
+
+						</li>
+						<li>
+							space-around: ряды блоков равномерно распределены в от начала до конца flex-контейнера, разделяя все свободное пространство поровну.
+
+						</li>
+						<li>
+							stretch (значение по умолчанию): Ряды блоков растянуты, дабы занять все имеющееся пространство.
+
+						</li>
+					</ul>
+				</div>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-coffee"></i>
+				</p>
+				<h2>
+					flex-basis – базовый размер отдельно взятого flex-блока
+				</h2>
+				<p class="text">
+					Задает изначальный размер по главной оси для flex-блока до того, как к нему будут применены преобразования, основанные на других flex-факторах. Может быть задан в любых единицах измерения длинны (px, em, %, …) или auto(по умолчанию). Если задан как auto – за основу берутся размеры блока (width, height), которые, в свою очередь, могут зависеть от размера контента, если не указанны явно.
+				</p>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-cut"></i>
+				</p>
+				<h2>
+					flex-grow – “жадность” отдельно взятого flex-блока
+				</h2>
+				<p class="text">
+					Определяет то, на сколько отдельный flex-блок может быть больше соседних элементов, если это необходимо. flex-grow принимает безразмерное значение ( по умолчанию 0)
+				</p>
+			</article>
+			<article >
+				<p class="awesome">
+					<i class="fa fa-bell"></i>
+				</p>
+				<h2>
+					flex-shrink – фактор “сжимаемости” отдельно взятого flex-блока
+				</h2>
+				<p class="text">
+					Определяет, насколько flex-блок будет уменьшаться относительно соседних эдементов внутри flex-контейнера в случае недостатка свободного места. По умолчанию равен 1.
+				</p>
+			</article>
+
+		</div>
+		<aside class="right-side">
+			right-side
+		</aside>
+	</main>
+	<footer>
+		footer
+	</footer>
+</body>
+</html>

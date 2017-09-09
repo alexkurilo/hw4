@@ -1,0 +1,339 @@
+html{
+	font-size: 10px;
+	text-align: center;
+}
+
+body{
+	margin: 0 auto;
+	font-family: Arial, 'Times New Roman', sans-serif;
+}
+
+header{
+	background-color: #228B22;
+	display: flex;
+}
+
+header, footer, aside{
+	font-size: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+header span, header span a{
+	font-size: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.9rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+h1, h2, h3{
+    color: #191970;
+}
+
+footer{
+	background-color: #1E462E;
+}
+
+main{
+	display: flex;
+	justify-content: space-between;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 60%;
+	background: #218457;
+}
+
+article{
+	width: 20%;
+	text-align: center;
+}
+
+.text, ul{
+	text-align: left;
+	padding: 0 1rem;
+	font-size: 1.6rem;
+}
+
+li{
+	font: none;
+	list-style-position: inside;
+}
+
+article:nth-child(odd){
+	background-color: #4A986A;
+}
+
+.left-side{
+	width: 20%;
+	background: #00733E;
+}
+
+.right-side{
+	width: 20%;
+	background: #033116;
+}
+
+.fa{
+	font-size: 8rem;
+
+	color: black;
+}
+
+/* For index1.html */
+
+.flex-container{
+	position: relative;
+	height: 50rem;
+	width: 80rem;
+	background-color: #F0FFFF;
+	margin: 0 auto;
+	font-size: 2rem;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.flex{
+	width: 7rem;
+}
+
+.el_1:after{
+	display: flex;
+	background-color: #1E90FF;
+	height: 5rem;
+	content: "";
+}
+
+.el_1:before{
+	content: "10%";
+}
+
+.el_2:after{
+	display: flex;
+	background-color: #1C86EE;
+	height: 10rem;
+	content: "";
+}
+
+.el_2:before{
+	content: "20%";
+}
+
+.el_3:after{
+	display: flex;
+	background-color: #1874CD;
+	height: 15rem;
+	content: "";
+}
+
+.el_3:before{
+	content: "30%";
+}
+
+.el_4:after{
+	display: flex;
+	background-color: #104E8B;
+	height: 20rem;
+	content: "";
+}
+
+.el_4:before{
+	content: "40%";
+}
+
+
+.el_5:after{
+	display: flex;
+	background-color: #63B8FF;
+	height: 25rem;
+	content: "";
+}
+
+.el_5:before{
+	content: "50%";
+}
+
+.el_6:after{
+	display: flex;
+	background-color: #5CACEE;
+	height: 30rem;
+	content: "";
+}
+
+.el_6:before{
+	content: "60%";
+}
+
+.el_7:after{
+	display: flex;
+	background-color: #4F94CD;
+	height: 35rem;
+	content: "";
+}
+
+.el_7:before{
+	content: "70%";
+}
+
+.el_8:after{
+	display: flex;
+	background-color: #36648B;
+	height: 40rem;
+	content: "";
+}
+
+.el_8:before{
+	content: "80%";
+}
+
+.el_9:after{
+	display: flex;
+	background-color: #00BFFF;
+	height: 45rem;
+	content: "";
+}
+
+.el_9:before{
+	content: "90%";
+}
+
+.el_10:after{
+	display: flex;
+	background-color: #00B2EE;
+	height: 50rem;
+	content: "";
+}
+
+.el_10:before{
+	content: "100%";
+}
+
+
+.el_11{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem auto;
+	background-color: #668B8B;
+	height: 6rem;
+	width: 80rem;
+	font-size: 1.9rem;
+}
+
+
+/* Responsive Start */
+@media screen and (max-width: 1040px){
+	main{
+		flex-wrap: wrap;
+	}
+	h2{
+    	font-size: 1.8rem;
+	}
+	h3{
+		font-size: 1.5rem;
+	}
+	.left-side{
+    		width: 20%;
+	}
+
+    .content{
+		width: 80%;
+    }
+
+    .right-side{
+    	width: 100%;
+    }
+
+    article{
+    	width: 33.3%;
+    }
+
+	.fa{
+		font-size: 6rem;
+	}
+
+	.text, ul{
+		font-size: 1.5rem;
+	}
+
+    @media screen and (max-width: 768px){
+        h2 {
+    		font-size: 1.7rem;
+		}
+		h3{
+			font-size: 1.4rem;
+		}
+		.left-side{
+    		width: 100%;
+   		}
+
+		.content{
+       		width: 100%;
+        }
+		
+		.fa{
+			font-size: 5rem;
+		}
+
+        .text, ul{
+			font-size: 1.4rem;
+		}
+        
+        @media screen and (max-width: 414px){
+        	h2 {
+    			font-size: 1.5rem;
+			}
+        	h3{
+				font-size: 1.3rem;
+			}
+			.content{
+				width: 99%;
+   			}
+
+   			article{
+   				width: 50%;
+   			} 
+
+   			.fa{
+				font-size: 4.5rem;
+			}
+			.text, ul{
+				font-size: 1.3rem;
+			} 
+   			@media screen and (max-width: 376px){
+        		h3{
+					font-size: 1.2rem;
+				}
+				article{
+   					width: 100%;
+   				}
+
+				.fa{
+					font-size: 4rem;
+				}
+
+   				.text, ul{
+					font-size: 1.2rem;
+				}      
+    		}
+		}
+	}
+}
+
+
+
